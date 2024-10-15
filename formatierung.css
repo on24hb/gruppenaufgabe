@@ -46,3 +46,31 @@ header nav ul li a {
 header nav ul li:hover a {
 	background: #e2001a;
 	color: #fff;
+}
+
+.image-row {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.image-row img {
+    width: 23%;
+    height: auto;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+
+.image-row img:hover {
+    transform: scale(1.05);
+}
+
+.h2-row{
+	display: flex;
+	justify-content: space-between;
+	padding: 20px;
+}
+
+h2{
+	color: red;
+}
