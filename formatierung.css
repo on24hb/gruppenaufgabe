@@ -1,6 +1,6 @@
 body {
 	font-family: Verdana, Arial, sans-serif;
-	background: rgba (255, 213, 213, 0.8);
+	background: rgba(255, 213, 213, 0.8);
 	font-size: 18px;
 	margin: 0;
 }
@@ -37,3 +37,37 @@ header nav ul li a {
 header nav ul li:hover a {
 	background: #e2001a;
 	color: #fff;
+}
+	section img:hover{
+	  border-radius:10px;
+}
+
+.content1{
+  grid-area: content1;
+  background-color:rgb(194,214,239);
+  padding:10px;
+}
+.content2{
+  grid-area: content2;
+  background-color:rgb(194,214,239);
+  padding:10px;
+}
+.content3{
+  grid-area: content3;
+  background-color:rgb(194,214,239);
+  padding:10px;
+}
+.content4{
+  grid-area: content4;
+  background-color:rgb(194,214,239);
+  padding:10px;
+}
+article{
+  max-width: 1200px;
+  margin:auto;
+  display:grid;
+  grid-gap:0.5rem;
+  grid-template-rows:300px;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-areas:
+    "content1 content2 content3 content4"
