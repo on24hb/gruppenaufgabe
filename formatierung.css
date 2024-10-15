@@ -3,6 +3,7 @@ body {
 	background: rgba(255, 213, 213, 0.8);
 	font-size: 18px;
 	margin: 0;
+	padding: 100px;
 }
 .wrapper {
 	max-width: 1000px;
