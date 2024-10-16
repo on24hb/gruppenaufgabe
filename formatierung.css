@@ -47,7 +47,6 @@ header nav ul li:hover a {
 	background: #e2001a;
 	color: #fff;
 }
-
 .image-row {
     display: flex;
     justify-content: space-between;
@@ -73,4 +72,24 @@ header nav ul li:hover a {
 
 h2{
 	color: red;
+}
+	.steckbrief-container {
+					 background-color: #fff;
+					 padding: 20px;
+					 border-radius: 10px;
+					 box-shadow: 0 0 10px rgba(0,0,0,0.1);
+					 max-width: 500px;
+					 margin: 0 auto;
+
+}
+	.steckbrief {
+		       list-style-type: none;
+		       padding: 0;
+}
+ .steckbrief li {
+		        padding: 10px 0;
+		        border-bottom: 1px solid #ccc;
+}
+.steckbrief-container h1{
+	color:red;
 }
